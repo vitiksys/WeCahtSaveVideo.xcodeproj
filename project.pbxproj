@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC204F7B1D478058002EF787 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC204F7A1D478058002EF787 /* Foundation.framework */; };
+		FC204F861D478059002EF787 /* WeCahtSaveVideo.mm in Sources */ = {isa = PBXBuildFile; fileRef = FC204F851D478059002EF787 /* WeCahtSaveVideo.mm */; };
+		FC204F911D478099002EF787 /* WeChatHead.h in Headers */ = {isa = PBXBuildFile; fileRef = FC204F901D478099002EF787 /* WeChatHead.h */; };
+		FC204F931D478130002EF787 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC204F921D478130002EF787 /* libsubstrate.dylib */; };
+		FC204F951D4781ED002EF787 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC204F941D4781ED002EF787 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC204F771D478058002EF787 /* WeCahtSaveVideo.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = WeCahtSaveVideo.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC204F7A1D478058002EF787 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC204F7F1D478058002EF787 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		FC204F801D478059002EF787 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		FC204F821D478059002EF787 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		FC204F831D478059002EF787 /* WeCahtSaveVideo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeCahtSaveVideo-Prefix.pch"; sourceTree = "<group>"; };
+		FC204F841D478059002EF787 /* WeCahtSaveVideo.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WeCahtSaveVideo.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		FC204F851D478059002EF787 /* WeCahtSaveVideo.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WeCahtSaveVideo.mm; sourceTree = "<group>"; };
+		FC204F8A1D478059002EF787 /* WeCahtSaveVideo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = WeCahtSaveVideo.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/WeCahtSaveVideo.plist; sourceTree = "<group>"; };
+		FC204F901D478099002EF787 /* WeChatHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatHead.h; sourceTree = "<group>"; };
+		FC204F921D478130002EF787 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		FC204F941D4781ED002EF787 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC204F731D478058002EF787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC204F951D4781ED002EF787 /* UIKit.framework in Frameworks */,
+				FC204F931D478130002EF787 /* libsubstrate.dylib in Frameworks */,
+				FC204F7B1D478058002EF787 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC204F6C1D478058002EF787 = {
+			isa = PBXGroup;
+			children = (
+				FC204F7C1D478058002EF787 /* WeCahtSaveVideo */,
+				FC204F791D478058002EF787 /* Frameworks */,
+				FC204F781D478058002EF787 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC204F781D478058002EF787 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC204F771D478058002EF787 /* WeCahtSaveVideo.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC204F791D478058002EF787 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC204F941D4781ED002EF787 /* UIKit.framework */,
+				FC204F921D478130002EF787 /* libsubstrate.dylib */,
+				FC204F7A1D478058002EF787 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC204F7C1D478058002EF787 /* WeCahtSaveVideo */ = {
+			isa = PBXGroup;
+			children = (
+				FC204F841D478059002EF787 /* WeCahtSaveVideo.xm */,
+				FC204F901D478099002EF787 /* WeChatHead.h */,
+				FC204F851D478059002EF787 /* WeCahtSaveVideo.mm */,
+				FC204F7D1D478058002EF787 /* Package */,
+				FC204F811D478059002EF787 /* Supporting Files */,
+			);
+			path = WeCahtSaveVideo;
+			sourceTree = "<group>";
+		};
+		FC204F7D1D478058002EF787 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				FC204F7E1D478058002EF787 /* DEBIAN */,
+				FC204F871D478059002EF787 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		FC204F7E1D478058002EF787 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				FC204F7F1D478058002EF787 /* control.txt */,
+				FC204F801D478059002EF787 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		FC204F811D478059002EF787 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC204F821D478059002EF787 /* PackageVersion.plist */,
+				FC204F831D478059002EF787 /* WeCahtSaveVideo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC204F871D478059002EF787 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				FC204F881D478059002EF787 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		FC204F881D478059002EF787 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				FC204F891D478059002EF787 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		FC204F891D478059002EF787 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				FC204F8A1D478059002EF787 /* WeCahtSaveVideo.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FC204F741D478058002EF787 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC204F911D478099002EF787 /* WeChatHead.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FC204F761D478058002EF787 /* WeCahtSaveVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC204F8D1D478059002EF787 /* Build configuration list for PBXNativeTarget "WeCahtSaveVideo" */;
+			buildPhases = (
+				FC204F711D478058002EF787 /* ShellScript */,
+				FC204F721D478058002EF787 /* Sources */,
+				FC204F731D478058002EF787 /* Frameworks */,
+				FC204F741D478058002EF787 /* Headers */,
+				FC204F751D478058002EF787 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeCahtSaveVideo;
+			productName = WeCahtSaveVideo;
+			productReference = FC204F771D478058002EF787 /* WeCahtSaveVideo.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC204F6D1D478058002EF787 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					FC204F761D478058002EF787 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FC204F701D478058002EF787 /* Build configuration list for PBXProject "WeCahtSaveVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC204F6C1D478058002EF787;
+			productRefGroup = FC204F781D478058002EF787 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC204F761D478058002EF787 /* WeCahtSaveVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FC204F711D478058002EF787 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		FC204F751D478058002EF787 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC204F721D478058002EF787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC204F861D478059002EF787 /* WeCahtSaveVideo.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC204F8B1D478059002EF787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		FC204F8C1D478059002EF787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		FC204F8E1D478059002EF787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeCahtSaveVideo/WeCahtSaveVideo-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		FC204F8F1D478059002EF787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeCahtSaveVideo/WeCahtSaveVideo-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC204F701D478058002EF787 /* Build configuration list for PBXProject "WeCahtSaveVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC204F8B1D478059002EF787 /* Debug */,
+				FC204F8C1D478059002EF787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC204F8D1D478059002EF787 /* Build configuration list for PBXNativeTarget "WeCahtSaveVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC204F8E1D478059002EF787 /* Debug */,
+				FC204F8F1D478059002EF787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC204F6D1D478058002EF787 /* Project object */;
+}
